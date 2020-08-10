@@ -12,5 +12,5 @@ const sessao = setInterval(() => {
         expira()
     }, 4000);
 
-}, 7000);
+}, 8000);
 

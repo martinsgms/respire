@@ -49,7 +49,7 @@ const concluirCiclo = () =>{
 } 
 
 const encerrarSessao = () => {
-    display('acabamos!');
+    display('vc é top!');
     clearInterval(sessao)
 }
 

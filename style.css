@@ -1,0 +1,60 @@
+* {margin: 0; padding: 0px;}
+
+body {
+    background-color: #37393A;
+}
+
+.m18 {
+    margin: 18%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    background-color: #77B6EA;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.mensagem {
+    text-align: center;
+    margin-top: 40%;
+    font-size: xx-large;
+}
+
+.inspira {
+    transition: transform 2s;
+    transform: scale(2.5);
+}
+
+.expira {
+    transition: transform 2s;
+    transform: scale(1.2);
+}
+
+.owner, a {
+    margin-bottom: 1%;
+    color: #F0F4EF;
+    text-align: center;
+    opacity: 0.4;
+}
+
+@media (max-width: 1000px)  {
+    .circle {
+        margin-top: 70%;
+        width: 380px;
+        height: 380px;
+    }
+    .mensagem {
+        font-size: 5em;
+    }
+    .owner {
+        margin-top: 40%;
+        font-size: 3.0em;
+    }
+}

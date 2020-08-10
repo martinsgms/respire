@@ -28,17 +28,20 @@ body {
 }
 
 .inspira {
-    transition: transform 2s;
+    transition: transform 2s, border-width 1s linear;
     transform: scale(2.5);
+    border-width: 10px;
+    border: 15px solid rgb(226, 244, 255, 0.1);
 }
 
 .expira {
-    transition: transform 2s;
+    transition: transform 2s, border-width 1s linear;
     transform: scale(1.2);
+    border-width: 0px;
+    border: 0px solid rgb(226, 244, 255, 0.1);
 }
 
 .owner, a {
-    margin-bottom: 1%;
     color: #F0F4EF;
     text-align: center;
     opacity: 0.4;
@@ -47,8 +50,8 @@ body {
 @media (max-width: 1000px)  {
     .circle {
         margin-top: 70%;
-        width: 380px;
-        height: 380px;
+        width: 320px;
+        height: 320px;
     }
     .mensagem {
         font-size: 5em;

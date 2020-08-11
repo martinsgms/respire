@@ -54,4 +54,3 @@ const encerrarSessao = () => {
 }
 
 const display = text => mensagem.innerHTML = text;
-

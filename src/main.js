@@ -1,14 +1,7 @@
-var init = false
-function iniciar(){
-    if(init){
-        return
-    }
-    else{
-        init = true
-    }
+circle.addEventListener('click', () => {
     iniciarContagemRegressiva();
     
-    const sessao = setInterval(() => {
+    sessao = setInterval(() => {
         inspira();
         
         setTimeout(() => {
@@ -20,6 +13,4 @@ function iniciar(){
         }, 4000);
         
     }, 8000);
-    
-    
-}
+})

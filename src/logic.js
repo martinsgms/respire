@@ -2,8 +2,9 @@ var $ = document.querySelector.bind(document);
 
 var circle = $('#circle');
 var mensagem = $('#mensagem');
-var ciclo = 1;
+var ciclo = 9;
 var regressiva = 5; 
+var sessao;
 
 const iniciarContagemRegressiva = () => {
     contagem = setInterval(() => {
@@ -49,7 +50,7 @@ const concluirCiclo = () =>{
 } 
 
 const encerrarSessao = () => {
-    display('vc é top!');
+    display('<small>concluído!</small>');
     clearInterval(sessao)
 }
 

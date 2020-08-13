@@ -2,7 +2,7 @@ var $ = document.querySelector.bind(document);
 
 var circle = $('#circle');
 var mensagem = $('#mensagem');
-var ciclo = 9;
+var ciclo = 1;
 var regressiva = 5; 
 var sessao;
 
